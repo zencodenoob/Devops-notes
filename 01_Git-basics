@@ -1,0 +1,28 @@
+#These are notes on the basics of git
+#There are mainly two types of git workflows - working locally and working remotly
+#Using git locally :-
+
+#	git init [Repository] <This command is used to initialize an empty local git repository> 
+#	git add .             <Git command used for staging all changes you made in the local repository>
+#	git restore FILE      <Git command to unstage changes>
+#	git commit            <Git command to commit the changes you made in the local repo>
+#	git log               <Git command to view all you commits>
+#	git checkout hash     <Git command is used here to go back to a previous commit using its hash id >
+
+
+#Working with git remotly
+
+# Create ssh key useing command :
+		ssh-keygen -t rsa -C "name@email.com"
+
+# Copy and paste the public key to git and run the following command in terminal to verify SSH :
+		ssh -T git@github.com
+
+#Git commands for remote work :-
+
+#	git remote add origin SSH-of-repo    <This command is used to set the origin(the repository in github)>
+# 	git push -u origin master            <Git command to upload changes to github. -u flag used to ignore history of github repo>
+#       git pull origin master               <Git command to download changes from github repository>
+
+
+These are the basics of git. 
