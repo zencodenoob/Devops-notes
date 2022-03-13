@@ -13,10 +13,10 @@
 #Working with git remotly
 
 # Create ssh key useing command :
-		ssh-keygen -t rsa -C "name@email.com"
+#		ssh-keygen -t rsa -C "name@email.com"
 
 # Copy and paste the public key to git and run the following command in terminal to verify SSH :
-		ssh -T git@github.com
+#		ssh -T git@github.com
 
 #Git commands for remote work :-
 
@@ -25,4 +25,3 @@
 #       git pull origin master               <Git command to download changes from github repository>
 
 
-These are the basics of git. 
