@@ -1,0 +1,23 @@
+#This note is on intermediate git
+#Git remote workflow:- Working with other's repository
+
+#First fork the repository you want to work on.
+#Copy the url of the fork and then run the clone command in your terminal
+
+#	git clone URL                   <Downloads the code>
+#	git commit -a                   <Git command for staging and commiting in one go>
+#	git diff                        <Git command that displays the changes in files in pwd vs staging area>
+#	git diff HEAD                   <Displays differences in pwd vs the last commit>
+#	git diff --staged HEAD          <Differences b/w staging area and last commit>
+#	git diff -FILE                  <Displays changes in the specified file>
+#	git diff hash_id1 hash_Id2      <Displays changes b/w commits>
+#	git diff master origin/master   <Displays differences b/w local repo and remote repo>
+
+#Branching:
+
+#	git branch			<Displays all branches>
+#	git branch BRANCH_NAME		<Creates new branch>
+#	git chechkout BRANCH		<Moves HEAD to BRANCH>
+#	git branch -m OLD NEW		<Renames old branch to new branch; -m stands for move>
+#	git branch -d BRANCH		<Deletes BRANCH>
+#	git checkout -b BRANCH		<Creates BRANCH and checkout to it>
