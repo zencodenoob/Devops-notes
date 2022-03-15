@@ -24,7 +24,15 @@
 #	git merge BRANCH		<Use git merge in master to merge the changes to master>
 #	git merge --no-ff		<Turns of fastforward merges and preserves branch commits; will result in a commit in master and then merge>
 #	git log --oneline --graph	<Displays log with only one line for each commit and with graph>
+
+#Rebase in git: -
+
 #	git rebase master		<Change the base from which a branch is created>
 #	git rebase --abort		<Aborts a rebase incase of conflicts>
 #	git rebase --continue		<Continue with rebase after solving rebase conflict>
 #	git pull --rebase origin master <Rebase local master to remote master>
+
+#Undo in git:-
+#
+#	git commit -amend		<Edits previous commit with changes newly staged>
+#	git restore HEAD FILE		<Unstage changes in FILE>

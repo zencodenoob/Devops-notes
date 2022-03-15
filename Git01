@@ -23,5 +23,5 @@
 #	git remote add origin SSH-of-repo    <This command is used to set the origin(the repository in github)>
 # 	git push -u origin master            <Git command to upload changes to github. -u flag used to ignore history of github repo>
 #       git pull origin master               <Git command to download changes from github repository>
-
+#	git fetch origin master		     <Updates origin/master without changing master >
 
