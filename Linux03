@@ -1,9 +1,0 @@
-#This file contains notes on shell scripting
-
-#Command line basics :-
-
-#	ls		<List files>
-#	whoami		<display user>
-#	pwd		<Present working directory>
-#	cd PATH		<Change directory>
-#

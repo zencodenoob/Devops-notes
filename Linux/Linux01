@@ -1,0 +1,21 @@
+#This file contains notes on shell scripting
+
+#### Simple commands :-
+
+#	whoami				<display user>
+#	pwd				<Present working directory>
+#	cd PATH				<Change directory>
+#	file FILENAME			<Display the type of the file>
+#	type [-a] COMMAND		<Display information about a command; a flag shows all the info>
+#	hostname			<Displays host name>
+
+### ls command:~
+
+#This command is used to list the contents of a directory
+#Useage : ls SampleDirectory/
+
+#   Flags
+
+#    a		<Lists all files including hidden files>
+#    d		<Lists info about the directory>
+#    t		
